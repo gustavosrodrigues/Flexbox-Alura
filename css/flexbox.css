@@ -58,6 +58,10 @@
 
 /* Mobile */
 @media(max-width: 768px) {
+    .cabecalhoPrincipal-nav a:last-child {
+        order: -1;
+    }
+
     .cabecalhoPrincipal-nav {
         flex-direction: column;
         
