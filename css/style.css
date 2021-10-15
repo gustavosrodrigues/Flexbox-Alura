@@ -6,6 +6,7 @@ body {
 .container {
 	width: 94%;
 	margin: 0 auto;
+	transition: ease all 0.7s;
 }
 
 .cabecalhoPrincipal {
@@ -247,13 +248,13 @@ body {
 		text-align: left;
 	}
 
-	.conteudoPrincipal-cursos-link:nth-child(3n) {
+	/* .conteudoPrincipal-cursos-link:nth-child(3n) {
 		margin-right: 0;
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
 		margin-left: 0;
-	}
+	} */
 
 }
 
@@ -262,13 +263,13 @@ body {
 		margin: 1.333%;
 	}
 
-	.conteudoPrincipal-cursos-link:nth-child(3n) {
+	/* .conteudoPrincipal-cursos-link:nth-child(3n) {
 		margin-right: 1.33%;
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
 		margin-left: 1.333%;
-	}
+	} */
 
 	.conteudoPrincipal-cursos-link:nth-child(4n) {
 		margin-right: 0;
@@ -276,11 +277,7 @@ body {
 
 	.conteudoPrincipal-cursos-link:nth-child(4n+1) {
 		margin-left: 0;
-	}
-
-	.videoSobre-sobre {
-		margin-left: 1.5em;
-	}
+	}	
 
 }
 
